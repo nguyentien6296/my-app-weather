@@ -1,4 +1,3 @@
-import { min } from "lodash";
 import React from "react";
 
 export default function FormattedDate(props) {
