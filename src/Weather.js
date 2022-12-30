@@ -5,11 +5,10 @@ import WeatherInfo from "./WeatherInfo";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather(props) {
-  const [ready, setReady] = useState(false);
+  //const [ready, setReady] = useState(false);
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
@@ -18,16 +17,14 @@ export default function Weather(props) {
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      iconUrl: response.data.weather[0].icon,
     });
   }
-
   function search() {
     const apiKey = "1c2d25d3b778335dacad0d1205b20d4e";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
-
   function handleSubmit(event) {
     event.preventDefault();
     search();
@@ -36,7 +33,6 @@ export default function Weather(props) {
   function handleCityChange(event) {
     setCity(event.target.value);
   }
-
   if (weatherData.ready) {
     return (
       <div className="Weather">
