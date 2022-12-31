@@ -2,22 +2,23 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather(props) {
-  //const [ready, setReady] = useState(false);
-  const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
+  const [city, setCity] = useState(props.defaultCity);
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      iconUrl: response.data.weather[0].icon,
+      icon: response.data.weather[0].icon,
     });
   }
   function search() {
@@ -28,11 +29,11 @@ export default function Weather(props) {
   function handleSubmit(event) {
     event.preventDefault();
     search();
-    // search for a city
   }
   function handleCityChange(event) {
     setCity(event.target.value);
   }
+
   if (weatherData.ready) {
     return (
       <div className="Weather">
@@ -57,6 +58,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
