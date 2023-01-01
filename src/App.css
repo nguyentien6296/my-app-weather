@@ -1,5 +1,5 @@
 .App {
-  max-width: 600px;
+  max-width: 500px;
   margin: 30px auto;
 }
 .App footer {
@@ -7,5 +7,6 @@
   font-family: "Lora", serif;
   margin: 10px 0;
 }
-@media (max-width: 576px) {
+@media (min-width: 375px) {
+  font-size: ;
 }
