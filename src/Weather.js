@@ -37,6 +37,12 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
+        <img
+          src="https://i.ibb.co/XknTRq9/10-BB05-BA-F5-B4-4-B73-99-D4-EB03498861-D3-4-5005-c.jpg"
+          width="150"
+          alt="logo"
+        />
+        <br /> <br />
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-9">
@@ -52,13 +58,15 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100"
+                className="btn btn-secondary w-100"
               />
             </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <br />
         <WeatherForecast coordinates={weatherData.coordinates} />
+        <br />
       </div>
     );
   } else {
