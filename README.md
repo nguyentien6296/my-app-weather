@@ -2,6 +2,7 @@
 
 <p> This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a>. </p>
 
+<h2>Animation of the Website</h2>
 
 # Getting Started with Create React App
 
