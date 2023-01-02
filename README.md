@@ -4,7 +4,7 @@
 
 <h2>Animation of the Website</h2>
 
-<img src="https://media.giphy.com/media/iBj48N5o3hyNfMHAo7/giphy.gif" />
+<img src="https://i.ibb.co/RDygybY/weather-app.gif" />
 <img src="https://i.ibb.co/kxs0vH8/Untitled-2.gif"">
 # Getting Started with Create React App
 
