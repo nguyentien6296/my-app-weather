@@ -54,18 +54,15 @@
 <li>API</li>
 </ul>
 <h3> At the end of the project, students will be able to: </h3>
-improve coding skills within HTML & CSS & JS & ReactJS.
-
-use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+Improve coding skills within HTML & CSS & JS & ReactJS
+Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 <h3>Steps to Solution</h3>
-<ul>
-<li>Step 1: Create React App using npx create-react-app my-app.</li>
-<li>Step 2: Build weather search with API.</li>
-<li>Step 3: Build weather forecast with API.</li>
-<li>Step 4: Push your application into your own public repo on Github</li>
-<li>Step 5: Deploy on Netify. 
-</ul>
+Step 1: Create React App using npx create-react-app my-app.
+Step 2: Build weather search with API.
+Step 3: Build weather forecast with API.
+Step 4: Push your application into your own public repo on Github
+Step 5: Deploy on Netify. 
 
 # Getting Started with Create React App
 
