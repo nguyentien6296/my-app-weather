@@ -54,8 +54,10 @@
 <li>API</li>
 </ul>
 <h3> At the end of the project, students will be able to: </h3>
-Improve coding skills within HTML & CSS & JS & ReactJS
+<p>
+Improve coding skills within HTML & CSS & JS & ReactJS. 
 Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+<p>
 
 <h3>Steps to Solution</h3>
 Step 1: Create React App using npx create-react-app my-app.
