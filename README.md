@@ -2,9 +2,10 @@
 
 <p> This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a>. </p>
 
-<h2>Animation of the Website</h2>
-
+<h2>Visualization of the website< /h2>
 <img src="https://i.ibb.co/RDygybY/weather-app.gif" />
+<br />
+<h2>Animation of the Website</h2>
 <img src="https://i.ibb.co/kxs0vH8/Untitled-2.gif"">
 # Getting Started with Create React App
 
