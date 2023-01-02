@@ -16,27 +16,68 @@
     SOLUTION
     |----public
          |----index.html
+         |----favicon.ico
+         |----manifest.json
+         |----robots.txt
     |----src
          |----components
-                |----card
-                    |----Card.css
-                    |----Card.js
-                |----header
-                    |----Header.css
-                    |----Header.js
-                |----navbar
-                    |----Navbar.css
-                    |----Navbar.js
-         |----helper
-                |----data.js
+                |----Weather
+                    |----Weather.css
+                    |----Weather.js
+                |----WeatherForecast
+                    |----WeatherForecast.css
+                    |----WeatherForecast.js
+                |----FormattedDate
+                    |----FormattedDate.js
+                |----WeatherForecastDay
+                    |----WeatherForecastDay.js
+                |----WeatherTemperature
+                    |----WeatherTemperature.js
+                |----WeatherIcon
+                    |----WeatherIcon.js
+                |----WeatherInfo
+                    |----WeatherInfo.js
          |----App.js
          |----App.css
          |----index.js
          |----index.css
+         |----reporWebVitals.js
     |----package.json
-    |----yarn.lock
+    |----package-lock.json
 </code> 
-                                                   
+<br />                      
+<h3> Description </h3>
+<p> 🚀 Project aims get information about Weather via a Javascript React. </p>
+
+<h3> At the end of the project, following topics are to be covered: </h3>
+<ul>
+<li>
+HTML
+</li>
+<li>
+CSS
+</li>
+<li>
+JS
+</li>
+<li>
+ReactJS
+</li>
+</ul>
+At the end of the project, students will be able to;
+improve coding skills within HTML & CSS & JS & ReactJS.
+
+use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+Steps to Solution
+Step 1: Create React App using npx create-react-app tour-places
+
+Step 2: Build tour places app using data.js.
+
+Step 4: Push your application into your own public repo on Github
+
+Step 5: Add project gif to your project and README.md file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
