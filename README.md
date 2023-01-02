@@ -5,7 +5,7 @@
 <h2>Animation of the Website</h2>
 
 <img src="https://media.giphy.com/media/iBj48N5o3hyNfMHAo7/giphy.gif" />
-<img src="https://i.ibb.co/80L2tK5/Untitled-2.gif"">
+<img src="https://i.ibb.co/kxs0vH8/Untitled-2.gif"">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
