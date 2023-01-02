@@ -4,6 +4,10 @@
 
 <h2>Animation of the Website</h2>
 
+<video width="320" height="240" controls>
+  <source src="https://share-me.video/video/np9RSM9zf3bzAACuu0O0dn2Mbe8AxERFCz0uCbg6berJyecrmlgF4DlhY9aqY8os" type="video/mov">
+</video>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
