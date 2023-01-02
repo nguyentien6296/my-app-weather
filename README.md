@@ -1,4 +1,4 @@
-Project : Tour Places
+<h1> Project : React Weather App </h1>
 
 
 # Getting Started with Create React App
