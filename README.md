@@ -60,11 +60,13 @@ Use git commands (push, pull, commit, add etc.) and Github as Version Control Sy
 <p>
 
 <h3>Steps to Solution</h3>
-Step 1: Create React App using npx create-react-app my-app.
-Step 2: Build weather search with API.
-Step 3: Build weather forecast with API.
-Step 4: Push your application into your own public repo on Github
-Step 5: Deploy on Netify. 
+<ul>
+<li>Step 1: Create React App using npx create-react-app my-app.</li>
+<li>Step 2: Build weather search with API.</li>
+<li>Step 3: Build weather forecast with API.</li>
+<li>Step 4: Push your application into your own public repo on Github.</li>
+<li>Step 5: Deploy on Netify.</li>
+</ul>
 
 # Getting Started with Create React App
 
