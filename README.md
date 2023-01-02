@@ -1,5 +1,7 @@
 <h1> Project : React Weather App </h1>
 
+<p> This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a>. </p>
+
 
 # Getting Started with Create React App
 
