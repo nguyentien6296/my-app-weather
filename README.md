@@ -6,7 +6,37 @@
 <img src="https://i.ibb.co/RDygybY/weather-app.gif" />
 <br />
 <h2>Animation of the Website</h2>
-<img src="https://i.ibb.co/kxs0vH8/Untitled-2.gif"">
+<img src="https://i.ibb.co/kxs0vH8/Untitled-2.gif">
+<br /> 
+<h2> Project Skeleton </h2>
+
+<p> ----React Weather App </p>
+<code>  
+    |----readme.md
+    SOLUTION
+    |----public
+         |----index.html
+    |----src
+         |----components
+                |----card
+                    |----Card.css
+                    |----Card.js
+                |----header
+                    |----Header.css
+                    |----Header.js
+                |----navbar
+                    |----Navbar.css
+                    |----Navbar.js
+         |----helper
+                |----data.js
+         |----App.js
+         |----App.css
+         |----index.js
+         |----index.css
+    |----package.json
+    |----yarn.lock
+</code> 
+                                                   
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
