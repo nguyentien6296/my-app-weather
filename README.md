@@ -61,11 +61,12 @@ improve coding skills within HTML & CSS & JS & ReactJS.
 use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 <h3>Steps to Solution</h3>
-<ul class="list-style-none">
-<li>Step 1: Create React App using npx create-react-app tour-places</li>
-<li>Step 2: Build tour places app using data.js.</li>
+<ul>
+<li>Step 1: Create React App using npx create-react-app my-app.</li>
+<li>Step 2: Build weather search with API.</li>
+<li>Step 3: Build weather forecast with API.</li>
 <li>Step 4: Push your application into your own public repo on Github</li>
-<li>Step 5: Add project gif to your project and README.md file.</li>
+<li>Step 5: Deploy on Netify. 
 </ul>
 
 # Getting Started with Create React App
