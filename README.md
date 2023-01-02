@@ -4,10 +4,8 @@
 
 <h2> Visualization of the website </h2>
 <img src="https://i.ibb.co/RDygybY/weather-app.gif" width=400 />
-<br />
 <h2>Animation of the Website</h2>
 <img src="https://i.ibb.co/kxs0vH8/Untitled-2.gif" width=400 />
-<br /> 
 <h2> Project Skeleton </h2>
 
 <p> ----React Weather App </p>
@@ -63,12 +61,12 @@ improve coding skills within HTML & CSS & JS & ReactJS.
 use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 <h3>Steps to Solution</h3>
-<p>
-Step 1: Create React App using npx create-react-app tour-places
-Step 2: Build tour places app using data.js.
-Step 4: Push your application into your own public repo on Github
-Step 5: Add project gif to your project and README.md file.
-</p>
+<ul class="list-style-none">
+<li>Step 1: Create React App using npx create-react-app tour-places</li>
+<li>Step 2: Build tour places app using data.js.</li>
+<li>Step 4: Push your application into your own public repo on Github</li>
+<li>Step 5: Add project gif to your project and README.md file.</li>
+</ul>
 
 # Getting Started with Create React App
 
