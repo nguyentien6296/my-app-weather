@@ -53,8 +53,6 @@
 <li>ReactJS</li>
 <li>API</li>
 </ul>
-<br/ >
-
 <h3> At the end of the project, students will be able to: </h3>
 improve coding skills within HTML & CSS & JS & ReactJS.
 
